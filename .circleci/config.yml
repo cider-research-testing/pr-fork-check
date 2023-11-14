@@ -25,6 +25,7 @@ jobs:
             echo "pipeline.git.tag: << pipeline.git.tag >>"
             echo "pipeline.git.branch: << pipeline.git.branch >>"
             echo "pipeline.schedule.name: << pipeline.schedule.name >>"
+            echo "pipeline.trigger_parameters.gitlab.commit_message: << pipeline.trigger_parameters.gitlab.commit_message >>"
             
 
             
